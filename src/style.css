@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  color: #555;
+  box-shadow: 2px 2px 6px 2px #ddd;
+}
+
+main {
+  display: flex;
+}
+
+.form {
+  flex: 1;
+  padding: 10px;
+}
+
+form {
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.inputForm input {
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.checkIsCompleted {
+  padding: 4px;
+}
+
+.btnSubmit {
+  padding: 4px;
+  text-align: center;
+}
+
+.btnSubmit input {
+  padding: 4px;
+  border-radius: 7px;
+  background-color: aquamarine;
+}
+
+.rakContainer {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.unCompleted {
+  padding: 10px;
+}
+
+.completed {
+  padding: 10px;
+}
+
+article {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+article p {
+  margin: 4px 0;
+}
+
+.moveBtn {
+  padding: 3px;
+  background-color: aquamarine;
+  border-radius: 8px;
+}
+
+.removeBtn {
+  padding: 3px;
+  background-color: rgb(235, 59, 59);
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 578px) {
+  main {
+    flex-direction: column;
+  }
+  .rakContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  main {
+    flex-direction: column;
+  }
+}
